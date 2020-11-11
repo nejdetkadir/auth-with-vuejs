@@ -1,16 +1,14 @@
 <template>
   <div>
     <Header></Header>
-    <Homepage></Homepage>
+    <router-view></router-view>
   </div>
 </template>
 <script>
 import Header from "./components/Header";
-import Homepage from "./pages/Homepage"
 export default {
   components: {
-    Header,
-    Homepage,
-  },
+    Header
+  }
 }
 </script>
