@@ -28,8 +28,8 @@ const store = new Vuex.Store({
         console.log(err);
       });
     },
-    logout() {
-
+    logout({commit}) {
+      commit("clearToken");
     }
   },
   getters: {
