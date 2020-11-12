@@ -32,20 +32,22 @@
     </div>
 </template>
 <script>
-    export default {
-        data() {
-            return {
-                user: {
-                    email: null,
-                    password: null
-                },
-                isUser: false
-            }
+  export default {
+    data() {
+      return {
+        user: {
+          email: 'nejdetkadir.550@gmail.com',
+          password: '5313235157'
         },
-        methods: {
-            onSubmit() {
-                alert(this.user)
-            }
-        }
+        isUser: false
+      }
+  },
+    methods: {
+      onSubmit() {
+        this.$store.dispatch("login", {
+          ...this.user, isUser: this.isUser
+        });
+      }
     }
+  }
 </script>
