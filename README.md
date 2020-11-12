@@ -57,3 +57,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+### NOTE 
+The founding father of this game is [Gökhan Kandemir](https://www.youtube.com/channel/UCYT5QTr38bwp85Pka8YSVIg). This application created for learning VueJS with [his course](https://www.udemy.com/course/sifirdan-ileri-seviye-vuejs-2-vuex-vue-router-egitim-seti/) from [Udemy](https://www.udemy.com/).
