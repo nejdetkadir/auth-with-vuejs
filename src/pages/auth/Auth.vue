@@ -50,6 +50,11 @@
           this.$router.push("/");
         })
       }
+    },
+    created() {
+      if (this.$store.getters.isAuthenticated) {
+        this.$router.replace("/");
+      }
     }
   }
 </script>
