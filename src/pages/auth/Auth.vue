@@ -46,7 +46,9 @@
       onSubmit() {
         this.$store.dispatch("login", {
           ...this.user, isUser: this.isUser
-        });
+        }).then(() => {
+          this.$router.push("/");
+        })
       }
     }
   }
